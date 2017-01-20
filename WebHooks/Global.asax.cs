@@ -12,6 +12,7 @@ namespace WebHooks
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(WebHookConfig.Register);
         }
     }
 }
